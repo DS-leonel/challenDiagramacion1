@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+/* beginning star */
+.circle__container {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgb(252, 221, 44);
+    position: relative;
+}
+
+.position {
+    position: absolute;
+    top: 56%;
+    left: 55%;
+    transform: translate(-15%, -15%);
+    width: 100px;
+    height: 100px;
+    background: transparent;
+}
+
+.star_one {
+    width: 25px;
+    height: 25px;
+    background: linear-gradient(to bottom, white, rgb(252, 221, 44));
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+/* end star */
+
+/* beginning one section */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.8;
+}
+
+.home_testimonial {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    background-color: #FAFAF9;
+}
+
+.container {
+    font-family: 'Sora', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FAFAF9;
+    
+}
+
+.title {
+    font-size: 36px;
+}
+
+.content {
+    font-size: 20px;
+    color: #52525A;
+}
+
+.list {
+    font-size: 14px;
+    color: #52525A;
+    font-weight: lighter;
+    list-style: none;
+    margin-top: 20px;
+    align-items: center;
+}
+
+li {
+    display: flex;
+    margin-top: 15px;
+}
+
+.container_check {
+    display: flex;
+}
+
+.check {
+    margin-right: 13px;
+    width: 23px;
+}
+/* end one section */
+
+/* beginning two section */
+.section {
+    padding: 50px;
+    width: 50%;
+    margin: 0 10px;
+}
+
+.paragraph {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #52525A;
+}
+
+.google {
+    box-shadow: 0px 30px 100px 0px rgba(161, 158, 158, 0.1);
+    margin-left: 100px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.meta {
+    box-shadow: 0px 30px 100px 0px rgba(161, 158, 158, 0.1);
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 40px;
+    max-width: 400px;
+}
+
+.ggle, .mta{
+    height: 27px;
+    margin-right: 10px;
+}
+/* end section two */
+
+
+
+
+
+
+
+
